@@ -3,3 +3,16 @@
   margin-bottom: 30px;
   background: red;
 }
+
+#panel,
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: aqua;
+  border: solid 1px green;
+  color: red;
+}
+#panel {
+  padding: 50px;
+  display: none;
+}

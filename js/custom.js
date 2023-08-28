@@ -123,5 +123,40 @@ $(document).ready(function () {
         $("#panel").slideToggle("slow");
     });
 
+    /*
+        text()
+        html()
+        val()
+        attr()
+    */
+
+    // get
+    // val() dynamic data show
+    $('.btn1').click(function () {
+        alert($('#name').val());
+    })
+    // attr() name value check
+    $('.btn2').click(function () {
+        alert($('#names').attr('name'));
+    })
+
+    // set
+    $('#set').click(function () {
+        $('.set').text("Welcome to jquery");
+    })
+
+    //append()
+    //prepend()
+    // after()
+    // before()
+    //addClass()
+    // removeClass()
+    //toggleClass
+    // css
+    //html code show
+
+    $('#remove').click(function () {
+        $('.remove').remove();
+    })
 
 });
